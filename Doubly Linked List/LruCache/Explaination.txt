@@ -1,0 +1,27 @@
+Problem Statement
+An LRU Cache is a data structure that:
+
+Stores a fixed number of items (capacity).
+Provides fast access to cached items by key.
+Removes the least recently used item when the cache exceeds its capacity.
+Operations:
+
+get(key): Returns the value of the key if it exists in the cache, otherwise returns -1. Marks the key as recently used.
+put(key, value): Adds a key-value pair to the cache. If the cache exceeds its capacity, removes the least recently used item.
+Key Concepts
+Data Structures Used:
+
+HashMap (or Object in JavaScript):
+Provides 
+𝑂(1)
+O(1) time complexity for lookup, insertion, and deletion by key.
+Used to store key-to-node mappings.
+Doubly Linked List:
+Efficiently maintains the order of access.
+Allows 
+𝑂(1)
+O(1) insertion and deletion of nodes.
+Stores the cache items in order of their usage, with the most recently used at the head and least recently used at the tail.
+Why a Doubly Linked List?
+
+Unlike a singly linked list, a doubly linked list allows efficient removal of nodes without needing to traverse the list, as each node maintains pointers to both its previous and next nodes.
