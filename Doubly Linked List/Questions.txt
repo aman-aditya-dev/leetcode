@@ -1,0 +1,11 @@
+1. LRU Cache
+2. Conver Binary Search Tree to sorted Doubly linked list.
+3. Flatten a Multilevel Doubly Linked list.
+4. A O`one Data structure.
+5. LFU Cache
+6. Max Stack
+7. Design Browser History
+8. Design Authentication Manager
+9. Design a Text Editor
+10. Convert Doubly Linked List to Array 1
+11. Convert Doubly Linked List to Array 2
